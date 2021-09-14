@@ -4,6 +4,10 @@
       <div class="nav">
         <Appbar/>
       </div>
+      <router-view/>
+      <div>
+        Footer div
+      </div>
     </div>
 
   </v-app>
@@ -25,3 +29,15 @@ components: {
   }),
 };
 </script>
+<style scoped>
+#app{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #5f6368;
+}
+.nav{
+  margin-top: 10px;
+}
+</style>
