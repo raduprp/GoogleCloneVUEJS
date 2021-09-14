@@ -10,11 +10,10 @@
         </div>
     </div>
 </template>
+
 <script>
 export default {
-
 }
-
 </script>
 
 <style scoped>
@@ -37,7 +36,7 @@ export default {
 .menu-item._menu._link {
     padding-top: 16px;
 }
-a:visited{
+a:visited {
     color: rgba(0, 0, 0, 0.87);
 }
 a {

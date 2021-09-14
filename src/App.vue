@@ -14,23 +14,22 @@
 </template>
 
 <script>
-
 import Appbar from './components/Appbar';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
-
-components: {
+  components: {
   Appbar,
   Footer,
 },
-
+  
   data: () => ({
     //
   }),
 };
 </script>
+
 <style scoped>
 #app{
   font-family: Avenir, Helvetica, Arial, sans-serif;

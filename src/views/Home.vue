@@ -20,11 +20,12 @@
     },
   }
 </script>
+
 <style scoped>
-.google_logo{
+.google_logo {
   padding-top: 105px;
 }
-.body_inputContainer{
+.body_inputContainer {
   margin-left: auto;
   margin-right: auto;
 
